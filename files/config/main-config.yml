@@ -1,0 +1,9 @@
+round-robin:
+  instances:
+    - http://app-1:8080
+    - http://app-2:8080
+    - http://app-3:8080
+
+handler:
+  max-retry: 5
+  max-timeout: 200
